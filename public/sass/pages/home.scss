@@ -1,0 +1,85 @@
+.body{
+    position: relative;
+    background-color: $darker-blue;
+       overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.intro{
+    height: 100vh;
+    position: relative;
+
+    &__card-container{
+        position: absolute;
+        display: fixed;
+        width: 80%;
+        top: 4%;
+        left: 10%;
+        z-index: 3;
+
+        @include respond(big-desktop){
+            top: 0%;
+        }
+        
+        @include respond(tab-land){
+            top: 0%;
+        }
+        
+        @include respond(tab-port){
+            top: 12%;
+            left: 5%;
+            width: 90%;    
+        }
+
+        @include respond(phone){
+            top: -10%; 
+        }
+    }
+
+    &__shape{
+        position: absolute;
+        width: 100%;
+        top: -9%;
+        left: 5%;
+        display: fixed;
+        z-index: 0;
+        opacity: .9;
+        khtml-opacity: .9;
+        moz-opacity: .9;
+
+        @include respond(big-desktop){
+            top: -10%;
+        }
+
+        @include respond(tab-land){
+            width: 100%;    
+            top: 5%;
+        }
+        
+        @include respond(tab-port){
+            width: 120%;    
+            top: 12%;
+            left: 20%;
+        }
+        
+        @include respond(phone){
+            width: 180%;  
+            top: -15%;
+            left: 20%;
+        }
+        
+        &--main{
+            left: -5.5%;
+
+            
+            @include respond(tab-port){
+                top: 15%;   
+                left: -22%;
+            }
+        }
+        
+    }
+}

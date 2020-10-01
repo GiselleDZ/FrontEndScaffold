@@ -1,0 +1,58 @@
+///  C O L O R S
+
+
+$white: #edf5ff;
+$black: #001141;
+
+$light-blue: #d0e2ff;
+$lightish-blue: #a6c8ff;
+$medium-lightish-blue: #92baff;
+$medium-light-blue: #78a9ff;
+$medium-blue: #4589ff;
+
+$dark-blue: #0f62fe;
+$darker-blue: #0043ce;
+$darker-mute-blue: #1453d1;
+$darkester-blue: #002d9c;
+$second-darkest-blue: #01288a;
+$darkest-blue: #001d6c;
+
+
+
+//   G R I D    V A R I A B L E S
+$grid-width: 114rem;
+$gutter-vertical : 6rem;
+$gutter-vertical-small: 4rem;
+$gutter-horizontal: 6rem;
+$gutter-horizontal-sml: 2rem;
+
+
+//   F O N T    S I Z E
+$default-font-size: 1.6rem;
+
+
+// B O X   S H A D O W
+$box-shadow-small-light: 0 1rem 2rem rgba($color: $darkester-blue, $alpha: .15);
+$box-shadow-light: 0 1.5rem 4rem rgba($color: $darkester-blue, $alpha: .15);
+$box-shadow-medium: 0 1.5rem 4rem rgba($color: $darkester-blue, $alpha: .20);
+$box-shadow-dark: 0 1.5rem 4rem rgba($color: $darkester-blue, $alpha: .25);
+$box-shadow-big-dark: 0 2rem 4rem rgba($color: $darkester-blue, $alpha: .4);
+
+
+// C O M P O N E N T   V A R I A B L E S
+$card-height-big: 50rem;
+$card-height: 42rem;
+$card-height-tab: 45rem;
+$card-height-phone: 62rem;
+
+// S H A P E S 
+$circle70: circle(70% at 70% 70%);
+$circle60: circle(60% at 60% 60%);
+$circle50: circle(50% at 50% 50%);
+$circle40: circle(40% at 40% 40%);
+
+
+// B O R D E R    R A D I U S 
+$border-radius-sm: 0rem;
+$border-radius-big: 0rem;
+$border-radius-round: 0rem;
