@@ -24,9 +24,10 @@ export default class App extends Component {
     return (
         <div className="main">
             <Navigation />
-            <Header />
-    
 
+            {/* put all other components inside Header Component*/}
+
+            <Header />
             {
                 this.state.loaded === true ? (
                     <div id="loaded">
