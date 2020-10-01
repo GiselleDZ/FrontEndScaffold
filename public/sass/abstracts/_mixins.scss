@@ -33,11 +33,11 @@
 }
 
 @mixin basic-blue-shadow($opacity){
-    box-shadow: 0 1rem 2rem rgba($color: $dark-blue, $alpha: $opacity);
+    box-shadow: 0 1rem 2rem rgba($color: $light-tuscany, $alpha: $opacity);
 }
 
 @mixin dark-blue-shadow($opacity){
-    box-shadow: 0 1rem 2rem rgba($color: $darkest-blue, $alpha: $opacity);
+    box-shadow: 0 1rem 2rem rgba($color: $darkest-tuscany, $alpha: $opacity);
 }
 
 
@@ -189,7 +189,7 @@
     background-image: linear-gradient(
         to right bottom,
         rgba($black, .2),
-        rgba($darkester-blue, .2)),
+        rgba($dark-tuscany, .2)),
         $photo;
 }
 
@@ -197,7 +197,7 @@
     background-image: linear-gradient(
         to right bottom,
         rgba($black, .2),
-        rgba($darkester-blue, .2)),
+        rgba($dark-tuscany, .2)),
         $photo;
 }
 
@@ -205,6 +205,6 @@
     background-image: linear-gradient(
         to right bottom,
         rgba($black, .2),
-        rgba($darkester-blue, .2)),
+        rgba($dark-tuscany, .2)),
         $photo;
 }

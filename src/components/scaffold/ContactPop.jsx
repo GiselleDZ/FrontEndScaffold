@@ -7,19 +7,19 @@ export default class ContactPop extends Component {
             <section className="popup" id="contactpopup">
                 <div className="popup__content">
                     <div className="popup__left">
-                        <img src="./thirdcvlt-imgs/mask1.jpg" alt="white mask on white mask, atop grey whethered wood" className="popup__left--img" />
-                        <img src="./thirdcvlt-imgs/mask8.jpg" alt="black on black mask, atop grey whethered wood" className=" popup__left--img" />
+                        <img src="" className="popup__left--img" />
+                        <img src="" alt="black on black mask, atop grey whethered wood" className=" popup__left--img" />
                     </div>
                     <div className="popup__right">
-                        <a href="#section-masks" className="popup__close">&times;</a>
+                        <a href="" className="popup__close">&times;</a>
                         <h2 className="heading-secondary heading-secondary--light u-margin-bottom-smallmedium">
-                            Find out more about Thirdcvlt wholesale
+                            Insert some text
                         </h2>
                         <h3 className="heading-tertiary u-margin-bottom-small">
-                            Wholesale
+                            more text
                         </h3>
                         <p className="popup__text u-margin-bottom-medium">
-                            You can find out more about wholesale by reaching out to stella@thirdcvlt.com
+                            and some more text, also contact gisellezatonyl@gmail.com
                         </p>
                         <button className="btn btn--white">a good cta</button>
                     </div>

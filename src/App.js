@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
-import Footer from './components/Footer'
-import Navigation from './components/Navigation'
-import Header from './components/Header'
-import Intro from './components/Intro'
-import Projects from './components/projects/Projects'
-import Loading from './components/Loading'
+import Navigation from './components/scaffold/Navigation'
+import Header from './components/scaffold/Header'
+import Loading from './components/scaffold/Loading'
+import Footer from './components/scaffold/Footer'
 import "../public/css/style.css"
 
 
@@ -24,15 +22,14 @@ export default class App extends Component {
   
   render(){
     return (
-        <div className="body">
+        <div className="main">
             <Navigation />
+            <Header />
+    
 
             {
                 this.state.loaded === true ? (
                     <div id="loaded">
-                        <Header />
-                        <Intro />
-                        <Projects />
                     </div>
                   ) 
                   : ( <Loading /> )

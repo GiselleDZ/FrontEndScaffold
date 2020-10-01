@@ -1,8 +1,12 @@
 .footer{
-    background-color: $darkest-blue;
-    padding: 8rem 0;
-    font-size: 1.4rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     margin-top: 10rem;
+    padding: 8rem;
+    background-color: $colder-dark-tuscany;
+    font-size: 1.4rem;
 
     &__logo-box{
         text-align: center;
@@ -29,7 +33,7 @@
 
     
     &__line-nav{
-        border-top: 1px solid $lightish-blue;
+        border-top: 1px solid $lightish-thistle;
         padding-top: .5rem;
         display: block;
         width: 70%;
@@ -76,7 +80,7 @@
 
         &:link,
         &:visited {
-            color: $lightish-blue;
+            color: $lightish-thistle;
             text-decoration: none;
             text-transform: uppercase;
             letter-spacing: .5rem;
@@ -98,7 +102,7 @@
         text-align: center;
         margin-top: 12rem;
         font-size: 1.2rem;
-        color: $lightish-blue;
+        color: $lightish-thistle;
 
         @include respond(tab-port){
             margin-top: 6rem;

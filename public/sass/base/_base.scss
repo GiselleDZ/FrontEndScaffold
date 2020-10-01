@@ -8,7 +8,7 @@
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: $darker-blue $medium-light-blue;
+    scrollbar-color: $medium-tuscany $medium-queen-pink;
 }
   
   /* Chrome/Edge/Safari */
@@ -16,12 +16,12 @@
     width: 12px;
 }
 *::-webkit-scrollbar-track {
-    background: $medium-light-blue;
+    background: $medium-queen-pink;
 }
 *::-webkit-scrollbar-thumb {
-    background-color: $darker-blue;
+    background-color: $medium-tuscany;
     border-radius: 20px;
-    border: 3px solid $medium-light-blue;
+    border: 3px solid $medium-queen-pink;
 }
 
 html {
@@ -45,7 +45,7 @@ html {
 
 body {
     box-sizing: border-box;
-    background-color: $darker-blue;
+    background-color: $light-queen-pink;
     padding: 1rem;
 
 

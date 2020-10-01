@@ -3,8 +3,8 @@
     padding: 4rem;
     position: relative;
     height: 60rem;
-    border: 1px solid $medium-light-blue;
-    background-color: rgba($color: $darkester-blue, $alpha: .8);
+    border: 1px solid $medium-queen-pink;
+    background-color: rgba($color: $dark-tuscany, $alpha: .8);
 
     @include basic-blue-shadow(.5);
     
@@ -62,7 +62,7 @@
         left: 0;
         height: .2rem;
         width: 100%;
-        background-color: $medium-light-blue;
+        background-color: $medium-queen-pink;
         margin: 0 auto;
 
         @include respond(phone){

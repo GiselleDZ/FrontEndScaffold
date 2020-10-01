@@ -22,6 +22,14 @@ export default class Footer extends Component {
                         <div className="footer__navigation">
                             <ul className="footer__list">
                                 <li className="footer__item">
+                                    <a href="http://dev.gisellezatonyl.com" 
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                        className="footer__link">
+                                        Dev Portfolio
+                                    </a>
+                                </li>
+                                <li className="footer__item">
                                     <a href="https://linkedin.com/in/gisellezatonyl" 
                                         rel="noopener noreferrer"
                                         target="_blank"
@@ -38,27 +46,17 @@ export default class Footer extends Component {
                                     </a>
                                 </li>
                                 <li className="footer__item">
-                                    <a href="https://drive.google.com/file/d/1fvXaVcHTkf5DGg8mp39P2gme4OWn1Xls/view?usp=sharing" 
-                                        rel="noopener noreferrer"
-                                        target="_blank"
-                                        className="footer__link">
-                                        resume pdf
-                                    </a>
-                                </li>
-                                <li className="footer__item">
-                                    <a href="#contactpopup" 
-                                        rel="noopener noreferrer"
-                                        target="_blank"
+                                    <a href="#contactpopup"
                                         className="footer__link">
                                         e-mail
                                     </a>
                                 </li>
                                 <li className="footer__item">
-                                    <a href="http://gisellezatonyl.com" 
+                                    <a href="https://linktr.ee/gisellezatonyl" 
                                         rel="noopener noreferrer"
                                         target="_blank"
                                         className="footer__link">
-                                        art portfolio
+                                        link tree
                                     </a>
                                 </li>
                             </ul>

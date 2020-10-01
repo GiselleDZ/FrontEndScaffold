@@ -36,8 +36,8 @@
         font-size: 1.4rem;
         padding: 1.5rem 3rem;
         border-radius: $border-radius-sm;
-        background-color: $light-blue;
-        color: $dark-blue;
+        background-color: $light-thistle;
+        color: $light-tuscany;
         
         @include basic-blue-shadow(.3);
         
@@ -58,14 +58,14 @@
         }
         
         &::after {
-            background-color: $light-blue;
+            background-color: $light-thistle;
             font-weight: 800;
             border-radius: $border-radius-sm;
         }
     }
     
     &--black{
-        background-color: $second-darkest-blue;
+        background-color: $darker-tuscany;
         font-weight: 800;
         color: $white;
         font-family: "Playfair Display", serif;
@@ -134,8 +134,8 @@
     }
 
     &--white{
-        color: $light-blue;
-        border-bottom: 1px solid $light-blue;
+        color: $light-thistle;
+        border-bottom: 1px solid $light-thistle;
         background-color: transparent;
         font-weight: 600;
         font-size: 1.6rem;
@@ -143,7 +143,7 @@
         
         &:hover{
             background-color: $white;
-            color: $darkest-blue;
+            color: $darkest-tuscany;
         }
     }
 
@@ -152,8 +152,8 @@
         &:active,
         &:visited,
         &:link {
-            color: $darkest-blue;
-            border-bottom: 1px solid $dark-blue;
+            color: $darkest-tuscany;
+            border-bottom: 1px solid $light-tuscany;
             background-color: transparent;
             font-weight: 600;
             font-size: 1.6rem;
@@ -161,7 +161,7 @@
 
         @media (anyhover: hover){
             &:hover{
-                color: $darkest-blue;
+                color: $darkest-tuscany;
                 border: none;
             }
         } 

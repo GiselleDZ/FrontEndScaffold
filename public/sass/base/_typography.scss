@@ -3,7 +3,7 @@ body {
     font-weight: 300;
     font-size: 1.6rem;
     line-height: 1.7;
-    color: $dark-blue;
+    color: $light-tuscany;
 }
 
 .heading-primary {
@@ -46,7 +46,7 @@ body {
     }
 
     &--shadow{
-        text-shadow: 0 .5rem 1rem $dark-blue;
+        text-shadow: 0 .5rem 1rem $light-tuscany;
     }
 }
 
@@ -59,13 +59,13 @@ body {
     transition: all .5s;
     
     &--lightest{
-        background-image: linear-gradient( to right, $light-blue, $white);
+        background-image: linear-gradient( to right, $light-thistle, $white);
         -webkit-background-clip: text;
         color: transparent; 
     }
 
     &--lighter{
-        background-image: linear-gradient( to top, $medium-blue, $light-blue);
+        background-image: linear-gradient( to top, $medium-dark-queen-pink, $light-thistle);
         -webkit-background-clip: text;
         color: transparent; 
     }
@@ -73,13 +73,13 @@ body {
     &--light{
         font-family: "Playfair Display", serif;
         font-weight: 900;
-        color: $lightish-blue; 
+        color: $lightish-thistle; 
     }
 
     &--small{
         font-size: 2.2rem;
         font-weight: 500;
-        color: $lightish-blue;
+        color: $lightish-thistle;
 
         @include respond(phone){
             font-size: 1.5rem;
@@ -89,7 +89,7 @@ body {
     }
 
     &--dark{
-        background-image: linear-gradient( to right, $darkest-blue, $black);
+        background-image: linear-gradient( to right, $darkest-tuscany, $black);
         -webkit-background-clip: text;
         color: transparent;
     }
@@ -105,7 +105,7 @@ body {
     text-transform: uppercase;
     font-size: 1.4rem;
     font-weight: 600;
-    color: $dark-blue;
+    color: $light-tuscany;
     letter-spacing: .2rem;
 
     @include respond(tab-land){ 
@@ -113,7 +113,7 @@ body {
     }
 
     &--light{
-        color: $medium-light-blue;
+        color: $medium-queen-pink;
         font-weight: 400;
     }
 }
@@ -124,11 +124,11 @@ body {
     font-weight: 600;
 
     &--light{
-        color: $light-blue;
+        color: $light-thistle;
     }
 
     &--dark{
-        color: $darker-blue;
+        color: $medium-tuscany;
     }
 
     @include respond(big-desktop){
@@ -156,13 +156,13 @@ body {
         font-size: 1.6rem;
     }
 
-    &--light{color: $light-blue;}
+    &--light{color: $light-thistle;}
 
-    &--medium{ color: $dark-blue;}
+    &--medium{ color: $light-tuscany;}
 
-    &--med-dark{color: $darker-blue;}
+    &--med-dark{color: $medium-tuscany;}
 
-    &--dark{color: $darkester-blue;}
+    &--dark{color: $dark-tuscany;}
 
     &--small{font-size: 1.1rem;}
 
@@ -195,13 +195,13 @@ body {
     &--link{
         font-weight: 600;
         font-size: larger;
-        color: $dark-blue;
+        color: $light-tuscany;
         // text-transform: uppercase;
         text-decoration: none;
 
         @media (any-hover:hover){
             &:hover{
-                color: $darkester-blue;
+                color: $dark-tuscany;
             }
         }
 
@@ -215,7 +215,7 @@ body {
 
     &__item{
         list-style: square;
-        color: $light-blue;
+        color: $light-thistle;
         
         &:not(:last-child){
             margin-bottom: 1.5rem;
